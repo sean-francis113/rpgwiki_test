@@ -1,0 +1,246 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+    wiki.css Start
+*/
+
+a
+{
+    
+    text-decoration: none;
+    color: black;
+    
+}
+
+html
+{
+    
+    background-color: black;
+    
+}
+
+#wrapper
+{
+    
+    width: 95%;
+    margin-left: 2.5%;
+    
+}
+
+header
+{
+    
+    width: 100%;
+    background-color: grey;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    
+}
+
+header h1,
+header ul
+{
+    
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+header h1
+{
+    
+    font-size: 45px;
+    
+}
+
+header ul
+{
+    
+    padding-bottom: 20px;
+    
+}
+
+header ul li
+{
+    
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+header ul li a
+{
+    
+    text-decoration: none;
+    color: black;
+    
+}
+
+header hr
+{
+    
+    color: black;
+    width: 50%;
+    
+}
+
+#sidebar
+{
+    
+    background-color: white;
+    float: left;
+    margin-top: 25px;
+    width: 25%;
+    margin-right: 1.5%;
+    
+}
+
+#sidebar_list
+{
+    
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+#sidebar_list li
+{
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 110%;
+    
+}
+
+.subpage_list li
+{
+    
+    margin-left: 15px;
+    
+}
+
+#main_content
+{
+    
+    width: 65%;
+    background-color: white;
+    float: left;
+    margin-top: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    
+}
+
+#main_content, #sidebar
+{
+    
+    margin-bottom: 10px;
+    
+}
+
+#page_title
+{
+    
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+
+footer
+{
+    
+    background-color: grey;
+    width: 100%;
+    height: 50px;
+    clear: both;
+    margin-top: 25px;
+    padding-top: 10px;
+    
+}
+
+.footer_section
+{
+    
+    padding-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    
+}
+
+#copyright
+{
+    
+    font-size: 75%;
+    text-align: right;
+    margin-left: 85%;
+    margin-top: 40px;
+    
+}
+
+@media screen (max-width: 900px)
+{
+    
+    #copyright
+    {
+        
+        margin-left: 80%;
+        
+    }
+    
+}
