@@ -2,8 +2,7 @@
 
 <?php
 
-    //Web Links: rpgwiki.seanmfrancis.net/wiki.php?rpg_id=1&subpage_id=1    
-    //Remember to Censor these values when posting to Github!!
+    //Web Links: rpgwiki.seanmfrancis.net/wiki.php?rpg_id=1&subpage_id=1
     $conn = mysqli_connect('XXXXXXXX', 'XXXXXXXXX', 'XXXXXXXXXXXXX', 'XXXXXXXXXXXXXX');
    
     if(! $conn ) {
